@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+input[type="text"]{background-color: rgb(148, 148, 233);}
+input[type="submit"]{
+    background-color: orange;
+    margin-right: 1cm;}
