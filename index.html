@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, inital-scale=1">
+    <title>Computer Hardware</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: rgb(42, 59, 44);
+        }
+
+        a {
+            text-decoration: none;
+            color: #0077cc;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            background-color:rgb(0, 183, 255);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(0, 183, 255);
+            padding: 15px 40px;
+        }
+
+        nav a {
+            color: white;
+            font-weight: 500;
+            display: inline-block;
+            margin: 0 10px;
+            color: rgb(255, 255, 255);
+        }
+
+        nav a:hover {
+            color: #7697d3;
+        }
+
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: green;
+        }
+
+        p {
+            line-height: 1.7;
+            text-align: justify;
+            margin: 1cm;
+            font-style: italic;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        table {
+            margin: 40px auto;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 800px;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="topbar">
+        <h1>Computer Hardware</h1>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="datapage.html">Data</a>
+            <a href="images.html">Images</a>
+            <a href="form.html">Form</a>
+            <a href="authors.html">Author</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <p>
+                Computer hardware includes the physical parts of a computer, such as the central processing unit (CPU),
+                random-access memory (RAM), motherboard, computer data storage, graphics card, sound card, and computer
+                case. It includes external devices such as a monitor, mouse, keyboard, and speakers. By contrast,
+                software is a set of written instructions that can be stored and run by hardware. Hardware derived its
+                name from the fact it is hard or rigid with respect to changes, whereas software is soft because it is
+                easy to change. Hardware is typically directed by the software to execute any command or instruction. A
+                combination of hardware and software forms a usable computing system, although other systems exist with
+                only hardware.
+            </p>
+        </section>
+        <div class="row">
+            <div class="column" style="background-color:#aac4a5;">
+                <h2>Input/output</h2>
+                <p>Most computers also have an external data bus to connect peripheral devices to the motherboard. Most
+                    commonly, <a href="https://en.wikipedia.org/wiki/USB" target="_blank">Universal Serial Bus (USB)</a> is used. Unlike the internal bus, the external bus is connected
+                    using a bus controller that allows the peripheral system to operate at a different speed from the
+                    CPU. Input and output devices are used to receive data from the external world or write data
+                    respectively. Common examples include keyboards and mice (input) and displays and printers (output).<a href="https://en.wikipedia.org/wiki/Network_interface_controller" target="_blank">
+                    Network interface controllers</a> are used to access the Internet. USB ports also allow power to
+                    connected devices—a standard USB supplies power at 5 volts and up to 500 milliamps (2.5 watts),
+                    while powered USB ports with additional pins may allow the delivery of more power—up to 6 amps at
+                    24v.</p>
+            </div>
+            <div class="column" style="background-color:#a4b69f;">
+            <h2>Case</h2>
+
+            <p>A computer case encloses most of the components of a desktop computer system. It provides mechanical
+                support and protection for internal elements such as the motherboard, disk drives, and power supply, and
+                controls and directs the flow of cooling air over internal components. The case is also part of the
+                system to control electromagnetic interference radiated by the computer and protects internal parts from
+                electrostatic discharge. Large <a href="https://en.wikipedia.org/wiki/Computer_tower" target="_blank">tower cases</a> provide space for multiple disk drives or other peripherals
+                and usually stand on the floor, while desktop cases provide less expansion room. All-in-one style
+                designs include a video display built into the same case. Portable and laptop computers require cases
+                that provide impact protection for the unit. Hobbyists may decorate the cases with colored lights,
+                paint, or other features, in an activity called <a href="https://en.wikipedia.org/wiki/Case_modding" target="_blank">case modding.</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
