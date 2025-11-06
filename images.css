@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif: margin: 1cm;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1cm;
+}
+
+.gaallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1cm;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    object-fit: cover;
+}

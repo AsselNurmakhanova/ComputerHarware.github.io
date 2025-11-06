@@ -1,0 +1,17 @@
+{
+    "CPU": {
+        "brand": "Intel",
+        "model": "Core i7",
+        "speed_Hz": 3.7,
+    },
+    "GPU": {
+        "brand": "NVIDIA",
+        "model": "RTX",
+        "capacity_GB": 8
+    },
+    "RAM": {
+        "brand": "Kingston",
+        "model": "Fury",
+        "capacity_GB": 16
+    }
+}

@@ -1,0 +1,16 @@
+<hardware>
+    <component type="CPU">
+        <brand>Intel</brand>
+        <model>Core i7</model>
+        <speed>3.7Hz</speed>
+    </component>
+    <component type="GPU">
+        <brand>NVIDIA</brand>
+        <model>RTX</model>
+        <memory>8gb</memory>
+        <component type="RAM">
+            <brand>Kingston</brand>
+            <model>Fury</model>
+            <capacity>16GB</capacity>
+        </component>
+    </hardware>
